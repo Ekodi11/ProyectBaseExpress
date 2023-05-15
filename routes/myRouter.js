@@ -6,3 +6,4 @@ const router = express.Router();
 router.route('/').get(myController.inicio);
 
 module.exports = router;
+
